@@ -7,9 +7,6 @@
 .insurance_card
   padding: 0px 0 0 4px
 
-.insurance_card__box__star_box__star
-  margin-bottom: 1px
-  word-spacing: -2.7px
 
 .insurance_card__box__logo__img
   width: 55px
@@ -26,7 +23,13 @@
 .insurance_card__box__star_box
   display: inline-block
   vertical-align: bottom
-  padding: 0 0 0 16px
+  padding: 0 0 0 20px
+  margin-bottom: 1px
+  word-spacing: -2.7px
+
+.insurance_card__box__star_box__star
+  display: inline-block
+  padding-right: 1.4px
 
 .insurance_card__box__star_box__content
   @include font_OpenSans(20px,400)
@@ -57,7 +60,6 @@
   display: inline-block
 
 .insurance_card__box__mon
-
   padding-top: 26px
   padding-left: 40px
 
@@ -70,10 +72,14 @@
   padding: 13px 0 11px 0
 
 .insurance_card__box__content__box--right
-  transform: translate(0.5px,-1.5px)
+  transform: translate(-0.5px,-1.5px)
 
 .insurance_card__box__content--bottom_padding
   padding-bottom: 10px
+
+.insurance_card__box__description--padding
+  transform: translateY(-1px)
+  padding-left: 4px
 
 .insurance_card__button
   min-width: 141px
@@ -82,6 +88,8 @@
   font-size: 12px
   margin: 0
   border-bottom: 0px
+  padding-right: 81px
+  padding-left: 59px
 
 .insurance_card__box__button
   display: flex
@@ -95,6 +103,7 @@
 
 .insurance_card__box__star_box__content--health
   margin-left: -3px
+  word-spacing: 0px
 
 .insurance_card__box__content__color--width
   width: 15px
@@ -104,6 +113,7 @@
 
 .insurance_card__box__value--margin
   margin-right: 2px
+  margin-left: 4px
 
 .insurance_card__box--dentalife
   left: -4px
@@ -119,4 +129,10 @@
 .insurance_card__box__content__color--width_insurcom
   margin-right: 4px
 .insurance_card__box__value--margin_insurcom
-  margin: 0 3px 0 0
+  margin: 0 3px 0 3px
+
+.insurance_table__table__tr__what--margin_left
+  margin-left: 5px
+
+.insurance_table__table__tr__color--margin
+  margin-right: 5px
